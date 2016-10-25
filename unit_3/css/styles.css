@@ -1,0 +1,31 @@
+body {
+	background-color: #FFF4E2;
+	font-family: Avenir, sans-serif;
+	text-align: center;
+}
+
+h1 {
+	color: #2860D3;
+}
+
+p {
+	color: #363636;
+}
+
+
+ul {
+	text-align: center;
+	list-style-type:none;
+}
+
+img {
+	width: 600px;
+}
+
+#slogan {
+	color: #36467C;
+}
+
+.content {
+	font-size: 13px;
+}
