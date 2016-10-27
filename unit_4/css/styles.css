@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body {
+	background-color: #FFF4E2;
+	font-family: "Avenir", sans-serif;
+	text-align: center;
+}
+
+h1 {
+	color: #2860D3;
+	font-size:60px;
+	padding-top:20px;
+	font-family: "Indie Flower", cursive;
+}
+
+p {
+	color: #363636;
+	font-size:20px;
+}
+
+
+img {
+	width: 600px;
+	padding:10px;
+}
+
+#slogan {
+	color: #36467C;
+	padding:10px;
+	font-family: "Droid Serif", serif;
+}
+
+.content {
+	font-size: 13px;
+	padding:10px;
+	line-height:1em;
+}
