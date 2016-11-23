@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body {
+	background-color: #FFF4E2;
+	font-family: "Avenir", sans-serif;
+	text-align: center;
+}
+
+.wrapper {
+	width: 800px;
+	margin: 0 auto;
+}
+
+nav {
+	margin-bottom: 20px;
+}
+
+h1 {
+	color: #2860D3;
+	font-size:60px;
+	padding:20px 0;
+	font-family: "Indie Flower", cursive;
+}
+
+a {
+	text-decoration: none;
+	color: #2860D3;
+	margin: 0 10px 0 10px;
+}
+
+a:hover {
+	color: black ;
+}
+
+.body-copy {
+	margin-top: 20px;
+}
+
+
+.image {
+	width: 800px;
+	margin: 30px 0;
+}
+
+#text-one {
+	display: inline;
+	float: left;
+	width: 300px;
+	text-align: left;
+	margin-left: 75px;
+	margin-top: 50px;
+}
+
+.content {
+	font-size: 20px;
+	line-height:1em;
+	color: #363636;
+	display: inline;
+}
+
+#image-one {
+	float: right;
+	margin-right: 65px;
+}
+
+.clear{
+	clear: both;
+	padding-top: 50px;
+}
+
+#image-three {
+	float: left;
+	margin-left: 65px;
+}
+
+#text-four {
+	display: inline;
+	float: right;
+	width: 300px;
+	text-align: left;
+	margin-right: 55px;
+	margin-top: 50px;
+}
+
+.content {
+	font-size: 20px;
+	line-height:1em;
+	color: #363636;
+}
+
+
+footer {
+	clear: both;
+	font-size: 12px;
+	padding-top: 25px;
+	margin: 50px 0 10px 0;
+	text-align: center;
+}
+
