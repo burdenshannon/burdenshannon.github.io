@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body {
+	background-color: #FFF4E2;
+	font-family: "Avenir", sans-serif;
+	text-align: center;
+	font-size: 20px;
+}
+
+.wrapper {
+	width: 55%;
+	margin: 0 auto;
+}
+
+nav {
+	margin-bottom: 2%;
+}
+
+h1 {
+	color: #2860D3;
+	font-size:3em;
+	padding:2% 0;
+	font-family: "Indie Flower", cursive;
+}
+
+a {
+	text-decoration: none;
+	color: #2860D3;
+	margin: 0 1% 0 1%;
+}
+
+a:hover {
+	color: black ;
+}
+
+.body-copy {
+	margin-top: 2%;
+}
+
+
+.image {
+	width: 80%;
+	margin: 10% 0;
+}
+
+#text-one {
+	display: inline;
+	float: left;
+	width: 40%;
+	text-align: left;
+	margin-left: 7%;
+	margin-top: 5%;
+}
+
+.content {
+	font-size: 1em;
+	line-height:1em;
+	color: #363636;
+	display: inline;
+}
+
+#image-one img{
+	float: right;
+	margin-right: 7.5%;
+	width: 40%;
+	max-width: 300px;
+}
+
+.clear{
+	clear: both;
+	padding-top: 5%;
+}
+
+#image-three img{
+	float: left;
+	margin-left: 7.5%;
+	width: 40%;
+	max-width: 300px;
+}
+
+#text-four {
+	display: inline;
+	float: right;
+	width: 40%;
+	text-align: left;
+	margin-right: 5%;
+	margin-top: 5%;
+}
+
+.content {
+	font-size: 20px;
+	line-height:1em;
+	color: #363636;
+}
+
+
+footer {
+	clear: both;
+	font-size: .6em;
+	padding-top: 10%;
+	margin: 10% 0 1% 0;
+	text-align: center;
+}
+
+@media screen and (max-width:940px) {
+	img {
+		width: 100%;
+	}
+	.content {
+		font-size: .75em;
+	}
+}
+
+@media screen and (max-width:768px) {
+	#text-one, #text-four {
+		float: none;
+		display: block;
+		padding: 0;
+		margin: 0 auto;
+		text-align: center;
+		width: 100%;
+	}
+	#image-one, #image-three {
+		display: none;
+	}
+	nav {
+		font-size: .75em;
+	}
+}
+
+@media screen and (max-width:400px) {
+	h1 {
+		font-size: 2em;
+	}
+	nav a{
+		float: none;
+		display: block;
+		margin: .3em;
+	}
+}
